@@ -1,0 +1,667 @@
+:root {
+    --dark--white: #f2f5f9;
+    --orange-color: #ff9c1a;
+    --red-color: #ec1b09;
+}
+
+body {
+    background-color: var(--dark--white);
+}
+
+#landing-page {
+    display: flex;
+    height: 1000px;
+    background-color: var(--dark--white);
+    padding: 20px 60px 20px 60px;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+.container {
+    display: flex;
+    height: 1000px;
+    background-color: var(--dark--white);
+    padding: 20px 60px 20px 60px;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+/* header */
+
+header {
+    background-color: var(--dark--white);
+    font-family: "Pacifico", sans-serif;
+}
+
+.header-wrapper {
+    width: 1240px;
+    height: 104px;
+    margin-top: 10px;
+    margin-left: 50px:
+}
+
+.red-text {
+    color: var(--red-color);
+    margin-right: 0;
+}
+
+.orange-text {
+    color: var(--orange-color);
+    margin-right: 0;
+}
+
+
+/* Nav Bar */
+
+nav {
+    background-color: var(--dark--white);
+    padding: 30px 50px;
+    position: absolute;
+    left: 583px;
+    top: 145px;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display : inline;
+}
+
+a {
+    text-decoration: none;
+    padding:40px 40px;
+    border-radius: 24px;
+    background-color: #e1e8ef;
+    color: darkslategrey;
+    font-family: "poppins",sans-serif;
+    font-weight: 500;
+}
+
+.btn.nav img {
+    vertical-align: middle;
+    height: 50px;
+    border-radius: 10%;
+}
+
+a:hover {
+    background-color: var(--orange-color);
+}
+
+/* Profile details */
+
+.profile-detail {
+    width: 300px;
+    height: 752px;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 60px 50px 50px 50px;
+    border-radius: 15px;
+    font-family: "poppins",sans-serif;
+    position: absolute;
+    left: 50px;
+    top: 145px;
+}
+
+
+.profile-detail img#Foto-Profile {
+    height: 200px;
+    border-radius: 10%;
+}
+
+.sosmed {
+    justify-content: center;
+    text-align: center;
+    background-color: lightgray;
+    padding: 17px 15px 17px 13px;
+    border-radius: 15px;
+}
+
+.btn.sosmed img {
+    vertical-align: middle;
+    justify-content: center;
+    height: 35px;
+    border-radius: 10%;
+}
+
+/* Contact Card */
+
+.contactcard.phone {
+    height: 80px;
+    display :flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark--white);
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+
+.contactcard.phone.image img {
+    height: 50px;
+    text-align : left;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.contact.top {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.contact.bottom {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+/* button download */
+
+.btn.download {
+    display: flex;
+    background-color: var(--orange-color);
+    border-radius: 20px;
+    font-size: 10px;
+    color:var(--dark--white);
+    padding: 5px 10px 5px 10px;
+}
+
+.btn.download img {
+    height: 20px;
+}
+
+/* About Me */
+
+.aboutme {
+    background-color: #FFFFFF;
+    width: 900px;
+    height: 680px;
+    position: absolute;
+    left: 470px;
+    top: 325px;
+}
+
+.header.abm {
+    position:absolute;
+    left: 50px;
+    top: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.line {
+    position: absolute;
+    left: 250px;
+    top: 65px;
+    width: 327px;
+}
+
+.custom-hr {
+    border: none;
+    background-color: var(--orange-color);
+    height: 3px;
+}
+
+.pg.abm {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+/* What I Do */
+
+.header.wid {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+
+.img.wb {
+    height: 30px;
+    margin: 10px;
+}
+
+.web {
+    display: flex;
+    align-items: center;
+    background-color: #ffebd1;
+    position: absolute;
+    left: 50px;
+    top: 270px;
+    width: 350px;
+    Height: 70px;
+    padding: 5px 15px 5px 15px;
+}
+
+.pg.wb {
+    display: flex;
+    align-items: center;
+    background-color: #ffebd1;
+    position: absolute;
+    left: 50px;
+    top: 320px;
+    width: 350px;
+    Height: 80px;
+    padding: 5px 15px 5px 15px;
+}
+
+.ui {
+    display: flex;
+    align-items: center;
+    background-color: var(--dark--white);
+    position: absolute;
+    left: 50px;
+    top: 440px;
+    width: 350px;
+    Height: 70px;
+    padding: 5px 15px 5px 15px;
+}
+
+.pg.ui {
+    display: flex;
+    align-items: center;
+    background-color: var(--dark--white);
+    position: absolute;
+    left: 50px;
+    top: 490px;
+    width: 350px;
+    Height: 100px;
+    padding: 5px 15px 5px 15px;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    background-color: var(--dark--white);
+    position: absolute;
+    left: 470px;
+    top: 270px;
+    width: 350px;
+    Height: 70px;
+    padding: 5px 15px 5px 15px;
+}
+
+.pg.app {
+    display: flex;
+    align-items: center;
+    background-color: var(--dark--white);
+    position: absolute;
+    left: 470px;
+    top: 320px;
+    width: 350px;
+    Height: 80px;
+    padding: 5px 15px 5px 15px;
+}
+
+.mtr {
+    display: flex;
+    align-items: center;
+    background-color: #ffebd1;
+    position: absolute;
+    left: 470px;
+    top: 440px;
+    width: 350px;
+    Height: 70px;
+    padding: 5px 15px 5px 15px;
+}
+
+.pg.mtr {
+    display: flex;
+    align-items: center;
+    background-color: #ffebd1;
+    position: absolute;
+    left: 470px;
+    top: 490px;
+    width: 350px;
+    Height: 100px;
+    padding: 5px 15px 5px 15px;
+}
+
+
+/* Resume */
+
+.img.rsme {
+    height: 60px;
+    margin: 10px;
+}
+
+.education {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50px;
+    top: 110px;
+    width: 350px;
+    Height: 70px;
+    padding: 5px 15px 5px 15px;
+}
+
+.experience {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 450px;
+    top: 110px;
+    width: 350px;
+    Height: 70px;
+    padding: 5px 15px 5px 15px;
+}
+
+.yr {
+    font-weight: 200;
+    font-size: small;
+    align-items: left;
+    margin: 5px;
+}
+
+.ex1 {
+    font-weight: 700;
+    font-size: large;
+    align-items: left;
+    margin: 5px;
+}
+
+.ex2 {
+    font-weight: 700;
+    font-size: large;
+    align-items: left;
+    margin: 5px;
+}
+
+.pge.s1 {
+    background-color: #ffe3bf;
+    display: block;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    width: 350px;
+    Height: 80px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+}
+
+.pge.s2 {
+    background-color: #ffeed9;
+    display: block;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 50px;
+    top: 330px;
+    width: 350px;
+    Height: 80px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+
+}
+
+.pge.exp1 {
+    background-color: #ffeed9;
+    display: block;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 450px;
+    top: 200px;
+    width: 350px;
+    Height: 80px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+}
+
+.pge.exp2 {
+    background-color: #ffe3bf;
+    display: block;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 450px;
+    top: 330px;
+    width: 350px;
+    Height: 80px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+}
+
+.wrk.skill {
+    background-color: var(--dark--white);
+    display: block;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 50px;
+    top: 450px;
+    width: 350px;
+    Height: 200px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+
+}
+
+.sft.skill {
+    background-color: var(--dark--white);
+    display: block;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 450px;
+    top: 450px;
+    width: 350px;
+    Height: 200px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+
+}
+
+.wrk.skill span {
+    background-color:grey;
+    color: white;
+    margin: 100px 5px 100px 5px;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.sft.skill span {
+    background-color:grey;
+    color: white;
+    margin: 100px 5px 100px 5px;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.img.ctk {
+    height: 20px;
+    margin: 10px;
+}
+
+/* .contact.phone h4 {
+    margin: 0px;
+} */
+
+.contact.phone {
+    display: flex;
+    align-items: top;
+    background-color: #ffebd1;
+    position: absolute;
+    left: 50px;
+    top: 110px;
+    width: 350px;
+    Height: 110px;
+    padding: 20px 15px 20px 15px;
+    z-index: +1;
+    border-radius: 10px;
+}
+
+.page.contact {
+    display: block;
+    align-items: center;
+    position: absolute;
+    left: 90px;
+    top: 150px;
+    padding: 5px 15px 5px 15px;
+    z-index: 1;
+}
+
+.contact.email {
+    display: flex;
+    align-items: top;
+    background-color: #ffebd1;
+    position: absolute;
+    left: 450px;
+    top: 110px;
+    width: 350px;
+    Height: 110px;
+    padding: 20px 15px 20px 15px;
+    z-index: +1;
+    border-radius: 10px;
+}
+
+.page.email {
+    display: block;
+    align-items: center;
+    position: absolute;
+    left: 490px;
+    top: 150px;
+    padding: 5px 15px 5px 15px;
+    z-index: 1;
+}
+
+/* form */
+
+.frm.paragraph {
+    display: block;
+    align-items: top;
+    background-color: var(--dark--white);
+    position: absolute;
+    left: 50px;
+    top: 270px;
+    width: 750px;
+    Height: 360px;
+    padding: 20px 15px 20px 15px;
+    font-size: 20px;
+}
+
+
+/* Style the form */
+
+.form {
+    display: block;
+    align-items: center;
+    position: absolute;
+    left: 70px;
+    top: 370px;
+    z-index: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style form groups */
+.form-group {
+    margin-bottom: 5px;
+}
+
+/* Style labels */
+label {
+    font-weight: bold;
+}
+
+/* Style text inputs and textareas */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: orange;
+    align-items: center;
+    border: 4px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Add some spacing to the submit button */
+button[type="submit"] {
+    margin-top: 10px;
+}
+
+/* Claim Reward */
+#claimRewardButton   {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    width: 250px;
+    Height: 10px;
+    z-index: +1;
+    border-radius: 10px;
+}
+
+
+/* Time Box */
+
+.timebox {
+    display: Flex;
+    align-items: top;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 900px;
+    top: 30px;
+    width: 437px;
+    Height: 60px;
+    padding: 20px 15px 20px 15px;
+    z-index: +1;
+    border-radius: 10px;
+}
+
+/* Time Session */
+#splash-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* Set your desired background color */
+    opacity: 1;
+}
+
+#splash-screen img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#landing-page {
+    display: none;
+}
+
+
+
